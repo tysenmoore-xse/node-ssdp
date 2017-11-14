@@ -4,6 +4,17 @@
 [![NPM version](https://badge.fury.io/js/node-ssdp.svg)](http://badge.fury.io/js/node-ssdp)
 [![Stories in Ready](https://badge.waffle.io/diversario/node-ssdp.png?label=ready&title=Ready)](https://waffle.io/diversario/node-ssdp)
 
+------
+
+# Changes on this fork
+
+- Fixed a problem when the server stops, was not allowing time to let the ssdp:byebye to transmit on the wire. 
+
+
+
+
+------
+
 ## Installation
 
 ```sh
